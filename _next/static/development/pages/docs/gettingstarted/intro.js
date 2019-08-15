@@ -212,7 +212,7 @@ var _jsxFileName = "/Users/morgancrena/Desktop/Mini Desktop/Codesmith NY12/Produ
 var MarkdownStyles = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "DocsContent__MarkdownStyles",
   componentId: "sc-11gwkmp-0"
-})(["padding-left:20px;padding-right:20px;width:85%;a{color:", ";}@media only screen and (min-width:", "px){width:65%;padding-left:5%;}"], function (props) {
+})(["padding-left:20px;padding-right:20px;width:85%;font-size:18px;margin-top:20px;line-height:27px;a{color:", ";}@media only screen and (min-width:", "px){width:65%;padding-left:5%;}"], function (props) {
   return props.theme.mainColor;
 }, _constants__WEBPACK_IMPORTED_MODULE_4__["mobileBreakpoint"]);
 
@@ -228,7 +228,7 @@ var DocsContent = function DocsContent(props) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(MarkdownStyles, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_markdown__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -238,20 +238,20 @@ var DocsContent = function DocsContent(props) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 42
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_ButtonBar__WEBPACK_IMPORTED_MODULE_5__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, extraProps, props, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 46
         },
         __self: this
       }))));
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 36
     },
     __self: this
   });
@@ -327,7 +327,7 @@ var Footer = function Footer(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/docs",
+    href: "/docs/gettingstarted/intro",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 53
@@ -340,26 +340,26 @@ var Footer = function Footer(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/docs",
+    href: "/docs/core/overview",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 56
     },
     __self: this
-  }, "Other")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+  }, "Overview")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/docs",
+    href: "/docs/extensions/middleware",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59
     },
     __self: this
-  }, "Other"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterSection, {
+  }, "Middleware"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterSection, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
@@ -377,54 +377,80 @@ var Footer = function Footer(props) {
       lineNumber: 64
     },
     __self: this
-  }, "Guides")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+  }, "API Reference")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 66
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/docs",
+    href: "/docs/core/server",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 67
     },
     __self: this
-  }, "Getting Started"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterSection, {
+  }, "Server")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/docs/core/stub",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 70
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+  }, "Stub")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 72
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/docs/core/build",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, "Build"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(FooterSection, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
   }, "More")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 80
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://github.com/oslabs-beta/firecomm",
+    href: "https://github.com/firecomm/firecomm",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 81
     },
     __self: this
   }, "Github"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Bumper, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 84
     },
     __self: this
   }, "Copyright (c) 2019-present Ian Geckeler, Daniel Nagano-Gerace, Giuseppe Valentino, and Dmitriy Levy. Icons credit to Font Awesome and the Noun Project."));
@@ -635,7 +661,7 @@ var Nav = function Nav(props) {
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "",
+      href: "/",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 68
@@ -805,7 +831,7 @@ var NavCore = function NavCore() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "docs/apireference/build",
+    href: "/docs/apireference/buildfunction",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
@@ -857,7 +883,7 @@ var _jsxFileName = "/Users/morgancrena/Desktop/Mini Desktop/Codesmith NY12/Produ
 var SubsectionStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].h1.withConfig({
   displayName: "Section__SubsectionStyled",
   componentId: "aao14i-0"
-})(["font-weight:100;font-size:15px;margin-top:3px;margin-bottom:3px;margin-left:20px;color:", ";:hover{color:", ";}"], function (props) {
+})(["font-weight:100;font-size:18px;margin-top:3px;margin-bottom:3px;margin-left:20px;color:", ";:hover{color:", ";}"], function (props) {
   return props.status === "active" ? props.theme.mainColor : props.theme.black;
 }, function (props) {
   return props.theme.mainColor;
@@ -866,7 +892,7 @@ var SubsectionStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
 var SectionStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div.withConfig({
   displayName: "Section__SectionStyled",
   componentId: "aao14i-1"
-})(["h1{font-size:17.5px;}display:flex;flex-direction:row;justify-content:space-between;padding-left:10px;padding-right:10px;i{font-size:23px;transition:200ms linear;}.rotate0{transform:rotate(0deg);}.rotate90{transform:rotate(90deg);}"]);
+})(["h1{font-size:25px;}display:flex;flex-direction:row;justify-content:space-between;padding-left:10px;padding-right:10px;i{font-size:23px;transition:200ms linear;}.rotate0{transform:rotate(0deg);}.rotate90{transform:rotate(90deg);}"]);
 
 var Section = function Section(_ref) {
   var title = _ref.title,
@@ -976,7 +1002,7 @@ var _jsxFileName = "/Users/morgancrena/Desktop/Mini Desktop/Codesmith NY12/Produ
 var SidebarStyled = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   displayName: "Sidebar__SidebarStyled",
   componentId: "k4u00n-0"
-})(["display:flex;flex-direction:column;height:100vh;width:100%;font-size:7.5px;font-weight:400;color:", ";background-color:", ";:hover{cursor:pointer;}@media only screen and (min-width:", "px){width:25%;max-width:250px;}"], function (props) {
+})(["display:flex;flex-direction:column;min-height:100vh;margin-bottom:10px;width:100%;font-size:7.5px;font-weight:400;color:", ";background-color:", ";:hover{cursor:pointer;}@media only screen and (min-width:", "px){width:25%;max-width:250px;}"], function (props) {
   return props.theme.black;
 }, function (props) {
   return props.theme.white;
@@ -1010,7 +1036,7 @@ function (_React$Component) {
         return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(SidebarStyled, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 44
+            lineNumber: 45
           },
           __self: this
         }, this.props.sections.map(function (el, index) {
@@ -1026,7 +1052,7 @@ function (_React$Component) {
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 47
+              lineNumber: 48
             },
             __self: this
           }));
@@ -1123,11 +1149,11 @@ function (_React$Component) {
     var sections = [{
       title: "Getting Started",
       collapsed: false,
-      subsections: ["Overview", "Concepts", "Intro"]
+      subsections: ["Concepts", "Intro"]
     }, {
       title: "Core",
       collapsed: false,
-      subsections: ["Core Overview", "Build", "Server", "Server Calls", "Stub", "Stub Calls"]
+      subsections: ["Overview", "Build", "Server", "Stub", "Calls", "Server Calls", "Stub Calls"]
     }, {
       title: "Extensions",
       collapsed: false,
@@ -1250,14 +1276,14 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 158
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Nav__WEBPACK_IMPORTED_MODULE_10__["default"], {
         windowWidth: this.state.windowWidth,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158
+          lineNumber: 159
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_HamburgerBar__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -1268,13 +1294,13 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 160
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_styles_styles__WEBPACK_IMPORTED_MODULE_14__["FlexRow"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 164
+          lineNumber: 165
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Sidebar__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -1290,7 +1316,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 165
+          lineNumber: 166
         },
         __self: this
       }), this.state.sidebarActive && this.state.windowWidth <= _constants__WEBPACK_IMPORTED_MODULE_15__["mobileBreakpoint"] ? null : react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, this.props.renderProps({
@@ -1299,7 +1325,7 @@ function (_React$Component) {
       }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_13__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 183
+          lineNumber: 184
         },
         __self: this
       }));
@@ -79309,7 +79335,7 @@ var Intro = function Intro(props) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("# Getting Started\n## Install\n``` \nnpm i --save firecomm\n```\n\n## 1. Define a `.proto` file\nLet's begin by creating a file named `exampleAPI.proto` that will live inside a `proto` folder. This file will define the name of the *Package*, the names of the *Services*, the *RPC methods* and the structured data of each *Message* sent and received.\n\n```protobuf\n// proto/exampleAPI.proto\nsyntax = \"proto3\";\n\npackage exampleAPI;\n\nservice ChattyMath {\n  rpc BidiMath (stream Benchmark) returns (stream Benchmark) {};\n}\n\nmessage Benchmark {\n  double requests = 1;\n  double responses = 2;\n}\n```\n\n> Each *RPC Method* clearly defines the Message object to be sent and received. The Object we send will have the exact properties `peerSocket` with a string value and `req` or `res` with a value of `double`, which can be a Number or a String in JavaScript based on the build configuration.\n\n## 2. Let's `build()` a `package`\n\nLet's pass an absolute path to our `.proto` file to build our *Package*. We will create a `package.js` file which will live in our root folder and `export` an Object containing the compiled *Service* and *RPC method*.\n\n```javascript\n// package.js\nconst { build } = require( 'firecomm' );\nconst path = require( 'path' );\nconst PROTO_PATH = path.join( __dirname, './proto/exampleAPI.proto' );\n\nconst CONFIG_OBJECT = {\n  keepCase: true, // keeps everything camelCased\n  longs: Number, // compiles the potentially enormous `double`s for our BenchmarkMsg requests and responses into a JavaScript Number rather than a String\n}\nconst package = build( PROTO_PATH, CONFIG_OBJECT );\nmodule.exports = package;\n```\n\n## 3. Create a server\nNext, let's construct a *Server* in a new `server` folder and file. \n\n```javascript\n// /server/server.js\nconst { Server } = require( 'firecomm' );\nconst server = new Server();\n```\n\n## 4. Define the server-side handlers for our `ChattyMath` *Service*.\n\nLet's define handler functions for our `BidiMath` *RPC method*. Server-Side handlers are how we will interact with the Client-side requests.\n\n```javascript\n// /server/chattyMathHandlers.js\nfunction BidiMathHandler(bidi) {\n  let start;\n  let end;\n  bidi\n    .on('metadata', (metadata) => {\n      start = Number(process.hrtime.bigint());\n      bidi.set({thisSetsMetadata: 'responses incoming'})\n      console.log(metadata.getMap());\n    })\n    .on('error', (err) => {\n      console.exception(err)\n    })\n    .on('data', (benchmark) => {\n      bidi.send(\n        {\n          requests: benchmark.requests, \n          responses: benchmark.responses + 1\n        }\n      );\n      if (benchmark.requests % 10000 === 0) {\n        end = Number(process.hrtime.bigint());\n      console.log(\n        'client address:', bidi.getPeer(),\n        '\\nnumber of requests:', benchmark.requests,\n        '\\navg millisecond speed per request:', ((end - start) /1000000) / benchmark.requests\n      );\n    }\n  })\n}\n\nmodule.exports = { \n\tBidiMathHandler,\n}\n```\n\n## 5. Add each *Service* from the package to the `Server`\n\nLet's go back to the `server.js` file and map each *Service* onto our `Server`. Mirroring the structure of the `.proto` file, the *Package* Object we built has each *Service* on it as properties. We use the `Server.addService` method to add each `Service` one at a time and map each *RPC method* to the handler we want to use.  \n\n```javascript\n// /server/server.js\nconst { Server } = require( 'firecomm' );\nconst package = require( '../package.js' );\nconst { BidiMathHandler } = require ( './chattyMathHandlers.js );\n\nnew Server()\n  .addService( package.ChattyMath, {\n  BidiMath: BidiMathHandler,\n})\n```\n\n## 6. Bind the server to sockets\n\n```javascript\n// /server/server.js\nconst { Server } = require( 'firecomm' );\nconst package = require( '../package.js' );\nconst { BidiMathHandler } = require ( './chattyMathHandlers.js' );\n\nnew Server()\n  .addService( package.ChattyMath,   {\n  BidiMath: BidiMathHandler,\n})\n  .bind('0.0.0.0: 3000')\n```\n> Note: `Server`s can be passed an array of strings to bind any number of sockets. For example:\n> ```javascript\n> server.bind( [ \n>   '0.0.0.0: 3000', \n>   '0.0.0.0: 8080', \n>   '0.0.0.0: 9900',\n> ] );\n> ```\n## 7. Start the server\n```javascript\n// /server/server.js\nconst { Server } = require( 'firecomm' );\nconst package = require( '../package.js' );\nconst { BidiMathHandler } = require ( './heavyMathHandlers.js' );\n\nnew Server()\n  .addService( \n    package.ChattyMath,   \n    { BidiMath: BidiMathHandler }\n  )\n  .bind('0.0.0.0: 3000')\n  .start();\n```\n> Run your new firecomm/gRPC-Node server with: `node /server/server.js`. It may also be worthwhile to map this command to `npm start` in your `package.json`.\n\n## 8.  Create a *Stub* for the `ChattyMath` service:\nNow that the *Server* is fully fleshed out, let's create a *Stub* with access to each *RPC method* in the  `ChattyMath` *Service*. We'll create a `chattyMath.js` file which will live inside our `clients` folder.\n```javascript\n// /clients/chattyMath.js\nconst { Stub } = require( 'firecomm' );\nconst package = require( '../package.js' )\nconst stub = new Stub( \n\tpackage.ChattyMath, \n\t'localhost: 3000', // also can be '0.0.0.0: 3000'\n);\n```\n> Note: multiple different clients *can* share a long-lived TCP connection with a single socket on the server, but it is likely better to map individual sockets.\n\n## 9. Make requests from the `Stub` and see how many requests and responses a duplex can make!\n```javascript\n// /clients/chattyMath.js\nconst { Stub } = require( 'firecomm' );\nconst package = require( '../package.js' )\nconst stub = new Stub( \n  package.ChattyMath, \n  'localhost: 3000',\n);\n\nlet start;\nlet end;\nconst bidi = stub.bidiMath({thisIsMetadata: 'let the races begin'})\n  .send({requests: 1, responses: 0})\n  .on( 'metadata', (metadata) => {\n    start = Number(process.hrtime.bigint());\n    console.log(metadata.getMap())\n  })\n  .on( 'error', (err) => console.error(err))\n  .on( 'data', (benchmark) => {\n    bidi.send(\n      {\n        requests: benchmark.requests + 1, \n        responses: benchmark.responses\n      }\n    )\n    if (benchmark.responses % 10000 === 0) {\n      end = Number(process.hrtime.bigint());\n    console.log(\n      'server address:', bidi.getPeer(),\n      '\\ntotal number of responses:', benchmark.responses,\n      '\\navg millisecond speed per response:', ((end - start) /1000000) / benchmark.responses\n    )\n  }\n});\n```\n> Run your new firecomm/gRPC-Node client with: `node /clients/chattyMath.js`. It may also be worthwhile to map this command to a custom command like `npm run math` in your `package.json`.\n\nNow enjoy the power of gRPCs! Feel free to construct multiple Stubs to any number of ports, bind any number of ports to the Server, experiment and enjoy!");
+/* harmony default export */ __webpack_exports__["default"] = ("# Getting Started\n## Install\n``` \nnpm i --save firecomm\n```\n\n## 1. Define a .proto file\nThe .proto file is the schema for your Servers and client Stubs. It defines the package you will build which will give your Server and Client superpowers -- Remote Procedure Call (RPC) methods. RPC methods define what Message Object the client Stubs send and what the server Handlers respond with.\n```protobuf\n// proto/exampleAPI.proto\nsyntax = \"proto3\";\n\npackage exampleAPI;\n\nservice ChattyMath {\n  rpc BidiMath (stream Benchmark) returns (stream Benchmark) {};\n}\n\nmessage Benchmark {\n  double requests = 1;\n  double responses = 2;\n}\n```\n\n> In our example, the RPC method BidiMath will send a stream of Benchmark messages from the client Stub and will *return* a stream of Benchmark messages from the server Handler for BidiMath. The Benchmark message received on either side will be an Object with the properties `requests` and `responses`. The values of `requests` and `responses` will be doubles, or potentially very large numbers. This example will use \"proto3\" syntax -- you can read more about protobufs and all of the possible Message fields at Google's developer docs [here](https://developers.google.com/protocol-buffers/docs/proto3).\n\n## 2. Build a package\n\nIn order to pass superpowers to our Server and client Stubs, we first need to package our .proto file. We will use the core `build` function imported from the firecomm library to build our package.\n\n```javascript\n// package.js\nconst { build } = require( 'firecomm' );\nconst path = require( 'path' );\nconst PROTO_PATH = path.join( __dirname, './proto/exampleAPI.proto' );\n\nconst CONFIG_OBJECT = {\n  keepCase: true, // keeps our RPC methods camelCased\n  longs: Number, // compiles the potentially enormous `double`s for our Benchmark requests and responses into a Number rather than a String\n}\nconst package = build( PROTO_PATH, CONFIG_OBJECT );\nmodule.exports = package;\n```\n\n> Under the hood, the config object is passed all the way to the protobufjs loader. For a clearer low-level understanding of the possible configurations, see their npm package documentation [here](https://www.npmjs.com/package/protobufjs).\n\n## 3. Create a server\nNow that we have our package, we need a Server. Let's import the `Server` class from the Firecomm library.\n\n```javascript\n// /server/server.js\nconst { Server } = require( 'firecomm' );\nconst server = new Server();\n```\n\n> Under the hood, Firecomm extends Google's gRPC core channel configurations. You can pass an Object to the Server as the first argument to configure advanced options. You can see all of the Object properties and the values you can set them to in the gRPC core docs [here](https://grpc.github.io/grpc/core/group__grpc__arg__keys.html).\n\n## 4. Define the server-side Handler\n\nBefore we can interact with a client, our Server needs Handlers. Handlers are usually unique to each RPC Method. In order to demonstrate the power of gRPCs, we will be listening for client requests and immediately sending back server responses in a ping-pong pattern. Metadata is sent only once at the start of the exchange, which will trigger Node's built in timers to start clocking the nanoseconds between responses and requests.\n\n```javascript\n// /server/chattyMathHandlers.js\nfunction BidiMathHandler(bidi) {\n  let start;\n  let end;\n  bidi\n    .on('metadata', (metadata) => {\n      start = Number(process.hrtime.bigint());\n      bidi.set({thisSetsMetadata: 'responses incoming'})\n      console.log(metadata.getMap());\n    })\n    .on('error', (err) => {\n      console.exception(err)\n    })\n    .on('data', (benchmark) => {\n      bidi.send(\n        {\n          requests: benchmark.requests, \n          responses: benchmark.responses + 1\n        }\n      );\n      if (benchmark.requests % 10000 === 0) {\n        end = Number(process.hrtime.bigint());\n      console.log(\n        'client address:', bidi.getPeer(),\n        '\\nnumber of requests:', benchmark.requests,\n        '\\navg millisecond speed per request:', ((end - start) /1000000) / benchmark.requests\n      );\n    }\n  })\n}\n\nmodule.exports = { \n\tBidiMathHandler,\n}\n```\n\n> As I'm sure you've noticed, the Objects we are receiving and sending have exactly the properties and value-types we defined in the Benchmark message in the .proto file. If you attempt to send an incorrectly formatted Object, the RPC Method will coerce the Object into a Message with the correct formatting. Values will be coerced to a default falsey value: `{ aString: '' }`, `{ someObject: {}, anArray: [] }`, or in our BidiMath example `{ requests: 0, responses: 0 }`.\n\n## 5. Add the Services\n\nLet's import the Handler and the package and add each Service to our Server alongside an Object mapping the name of the RPC Method with the Handler we created.\n\n```javascript\n// /server/server.js\nconst { Server } = require( 'firecomm' );\nconst package = require( '../package.js' );\nconst { BidiMathHandler } = require ( './chattyMathHandlers.js );\n\nnew Server()\n  .addService( package.ChattyMath,   {\n  BidiMath: BidiMathHandler,\n})\n```\n> Servers can chain the .addService method as many times as they wish for each Service that we defined in the .proto file. If you have multiple RPC methods in a Service, each should be mapped as a property on the Object with a Handler function as the value. Not mapping all of your RPC Methods will cause a Server error.\n\n## 6. Bind the server to addresses\n\n```javascript\n// /server/server.js\nconst { Server } = require( 'firecomm' );\nconst package = require( '../package.js' );\nconst { BidiMathHandler } = require ( './chattyMathHandlers.js' );\n\nnew Server()\n  .addService( package.ChattyMath,   {\n  BidiMath: BidiMathHandler,\n})\n  .bind('0.0.0.0: 3000')\n```\n> The .bind method can be passed an array of strings to accept requests at any number of addresses. For example:\n> ```javascript\n> server.bind( [ \n>   '0.0.0.0: 3000', \n>   '0.0.0.0: 8080', \n>   '0.0.0.0: 9900',\n> ] );\n> ```\n## 7. Start the server\n```javascript\n// /server/server.js\nconst { Server } = require( 'firecomm' );\nconst package = require( '../package.js' );\nconst { BidiMathHandler } = require ( './heavyMathHandlers.js' );\n\nnew Server()\n  .addService( \n    package.ChattyMath,   \n    { BidiMath: BidiMathHandler }\n  )\n  .bind('0.0.0.0: 3000')\n  .start();\n```\n> Run your new firecomm/gRPC-Node server with: `node /server/server.js`. It may also be worthwhile to map this command to `npm start` in your `package.json`.\n\n## 8.  Create a client Stub for each Service:\nNow that the server is up and running, we have to pass superpowers to the client-side. We open channels by connecting each Stub to the same address as a Server is bound to. In order for the Stub to be able to make RPC Method requests we need to pass the package.Service into a newly constructed `Stub`.\n```javascript\n// /clients/chattyMath.js\nconst { Stub } = require( 'firecomm' );\nconst package = require( '../package.js' )\nconst stub = new Stub( \n\tpackage.ChattyMath, \n\t'localhost: 3000', // also can be '0.0.0.0: 3000'\n);\n```\n> Under the hood, Firecomm extends Google's gRPC core channel configurations. You can pass an Object to the Stub as the second argument to configure advanced options. **Note: Any channel configurations on the client Stub should match the configurations on the server it is requesting to.** You can see all of the Object properties and the values you can set them to in the gRPC core docs [here](https://grpc.github.io/grpc/core/group__grpc__arg__keys.html).\n\n## 9. Make requests from the Stub and see how many requests and responses a duplex can make!\nBefore we can interact with a server, our client Stub needs to invoke the RPC Method. We can also pass any metadata we would like to send at this point as the first argument of the RPC Method. RPC Methods now exist on the Stub just like it was defined in the .proto file because we passed the package.Service into the Stub constructor. Because we defined the RPC Method to send a stream of messages and return a stream of messages, both the client Stub and the server can send and listen for any number of messages over a long-living TCP connection. \n\nOnce the RPC Method is invoked, the client Stub always sends the first request. As soon as the server Handler receives the request, the ping-pong will begin. Similarly to the server Handler, now on the client-side, we will begin listening for server requests and immediately sending back client responses. Again, metadata is received from the server only once at the start of the exchange, which will trigger Node's built in timers to start clocking the nanoseconds between requests and responses.\n```javascript\n// /clients/chattyMath.js\nconst { Stub } = require( 'firecomm' );\nconst package = require( '../package.js' )\nconst stub = new Stub( \n  package.ChattyMath, \n  'localhost: 3000',\n);\n\nlet start;\nlet end;\nconst bidi = stub.bidiMath({thisIsMetadata: 'let the races begin'})\n  .send({requests: 1, responses: 0})\n  .on( 'metadata', (metadata) => {\n    start = Number(process.hrtime.bigint());\n    console.log(metadata.getMap())\n  })\n  .on( 'error', (err) => console.error(err))\n  .on( 'data', (benchmark) => {\n    bidi.send(\n      {\n        requests: benchmark.requests + 1, \n        responses: benchmark.responses\n      }\n    )\n    if (benchmark.responses % 10000 === 0) {\n      end = Number(process.hrtime.bigint());\n    console.log(\n      'server address:', bidi.getPeer(),\n      '\\ntotal number of responses:', benchmark.responses,\n      '\\navg millisecond speed per response:', ((end - start) /1000000) / benchmark.responses\n    )\n  }\n});\n```\n> Run your new firecomm/gRPC-Node client with: `node /clients/chattyMath.js`. It may also be worthwhile to map this command to a script like `npm run client` in your `package.json`.\n\nNow enjoy the power of gRPCs! See how many requests and responses you can make per second with one duplex RPC method! \n\nExplore the flexible possibilities! Creatively modify the bidiMath to be full duplex instead of ping-ponging. Add more client Stubs to run services in parallel to one server address, bind multiple addresses to the Server, run multiple clients with their own Stubs requesting from separate addresses, etc. And once you feel comfortable with the clients and servers, dive into modifying the .proto file to change the message fields or add multiple messages with different fields to send and receive, add multiple RPC methods to one Service, or add multiple Services to the package. Then, build the new .proto, add each package.Service to a server, create a Stub with the each matching package.Service and a server address, and explore the endless potential of gRPCs!\n");
 
 /***/ }),
 
@@ -79361,7 +79387,7 @@ var WhiteSpacer = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].sect
 
 /***/ }),
 
-/***/ 4:
+/***/ 1:
 /*!*******************************************************************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fdocs%2Fgettingstarted%2Fintro&absolutePagePath=%2FUsers%2Fmorgancrena%2FDesktop%2FMini%20Desktop%2FCodesmith%20NY12%2FProduction%20Project%2Ffirecomm.io-2.0%2Fpages%2Fdocs%2Fgettingstarted%2Fintro.jsx ***!
   \*******************************************************************************************************************************************************************************************************************************************************/
@@ -79384,5 +79410,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=intro.js.map
