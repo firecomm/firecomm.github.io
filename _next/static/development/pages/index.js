@@ -557,7 +557,7 @@ var _jsxFileName = "/Users/morgancrena/Desktop/Mini Desktop/Codesmith NY12/Produ
 var NavStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].section.withConfig({
   displayName: "Nav__NavStyle",
   componentId: "sc-8cs43r-0"
-})(["height:50px;display:flex;width:100%;font-size:17.5px;justify-content:", ";background-color:", ";.logo{margin-top:2px;font-size:30px;font-weight:700;width:225px;color:", ";}.logo a{margin-left:20px;font-size:25px;}.logo a:hover{text-decoration:none;}.justify-left{justify-content:left !important;}a{display:flex;flex-direction:column;justify-content:center;}a:hover{cursor:pointer;text-decoration:underline;}i{color:", ";font-size:40px;}"], function (props) {
+})(["height:50px;display:flex;width:100%;font-size:17.5px;justify-content:", ";background-color:", ";img{margin-top:4px;}.logo{margin-top:2px;font-size:30px;font-weight:700;width:225px;color:", ";}.logo a{margin-left:20px;font-size:25px;}.logo a:hover{text-decoration:none;}.justify-left{justify-content:left !important;}a{display:flex;flex-direction:column;justify-content:center;}a:hover{cursor:pointer;text-decoration:underline;}i{color:", ";font-size:40px;}"], function (props) {
   return props.left ? "left" : "space-between";
 }, function (props) {
   return props.main ? props.theme.mainColor : props.theme.offColor;
@@ -577,33 +577,33 @@ var Nav = function Nav(props) {
       main: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61
+        lineNumber: 64
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "logo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62
+        lineNumber: 65
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_styles__WEBPACK_IMPORTED_MODULE_5__["Flex"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63
+        lineNumber: 66
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_styles__WEBPACK_IMPORTED_MODULE_5__["VerticalCenter"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64
+        lineNumber: 67
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65
+        lineNumber: 68
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -612,26 +612,26 @@ var Nav = function Nav(props) {
       height: "40px",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66
+        lineNumber: 69
       },
       __self: this
     }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_styles__WEBPACK_IMPORTED_MODULE_5__["VerticalCenter"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69
+        lineNumber: 76
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 70
+        lineNumber: 77
       },
       __self: this
     }, "Firecomm")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavCore__WEBPACK_IMPORTED_MODULE_3__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74
+        lineNumber: 81
       },
       __self: this
     }));
@@ -640,33 +640,33 @@ var Nav = function Nav(props) {
       main: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 80
+        lineNumber: 87
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "logo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 81
+        lineNumber: 88
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_styles__WEBPACK_IMPORTED_MODULE_5__["Flex"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 82
+        lineNumber: 89
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_styles__WEBPACK_IMPORTED_MODULE_5__["VerticalCenter"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83
+        lineNumber: 90
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "",
+      href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 84
+        lineNumber: 91
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -675,33 +675,33 @@ var Nav = function Nav(props) {
       height: "40px",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 85
+        lineNumber: 92
       },
       __self: this
     }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_styles__WEBPACK_IMPORTED_MODULE_5__["VerticalCenter"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 88
+        lineNumber: 99
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 89
+        lineNumber: 100
       },
       __self: this
     }, "Firecomm"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavStyle, {
       main: true,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94
+        lineNumber: 105
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_NavCore__WEBPACK_IMPORTED_MODULE_3__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 95
+        lineNumber: 106
       },
       __self: this
     })));
@@ -770,27 +770,13 @@ var NavCore = function NavCore() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/docs/gettingstarted/intro",
+    href: "docs/apireference/build",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     },
     __self: this
   }, "API")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/guides",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "/guides",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, "Guides")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55
@@ -837,7 +823,7 @@ var SubsectionStyled = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"]
   displayName: "Section__SubsectionStyled",
   componentId: "aao14i-0"
 })(["font-weight:100;font-size:15px;margin-top:3px;margin-bottom:3px;margin-left:20px;color:", ";:hover{color:", ";}"], function (props) {
-  return props.theme.black;
+  return props.status === "active" ? props.theme.mainColor : props.theme.black;
 }, function (props) {
   return props.theme.mainColor;
 });
@@ -852,24 +838,26 @@ var Section = function Section(_ref) {
       collapsed = _ref.collapsed,
       subsections = _ref.subsections,
       toggle = _ref.toggle,
-      changeActiveSection = _ref.changeActiveSection;
+      changeActiveSection = _ref.changeActiveSection,
+      activeSection = _ref.activeSection;
   var subsectionsToRender = subsections.map(function (subtitle) {
-    var section = title.toLowerCase().replace(" ", "");
-    var subsection = subtitle.toLowerCase().replace(" ", "");
+    var section = title.toLowerCase().replace(/[ ]/g, "");
+    var subsection = subtitle.toLowerCase().replace(/[ ]/g, "");
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: "/docs/".concat(section, "/").concat(subsection),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54
+        lineNumber: 56
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(SubsectionStyled, {
+      status: activeSection === subtitle ? "active" : "inactive",
       onClick: function onClick() {
         return changeActiveSection(subtitle);
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55
+        lineNumber: 57
       },
       __self: this
     }, subtitle));
@@ -880,33 +868,33 @@ var Section = function Section(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 68
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 69
     },
     __self: this
   }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_styles_styles__WEBPACK_IMPORTED_MODULE_2__["VerticalCenter"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 70
     },
     __self: this
   }, collapsed ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     "class": "fa fa-angle-right rotate0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 72
     },
     __self: this
   }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     "class": "fa fa-angle-right rotate90",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 74
     },
     __self: this
   }))), collapsed ? null : subsectionsToRender);
@@ -1046,21 +1034,18 @@ var SellingPoint = function SellingPoint(props) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
-/* harmony import */ var _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
-/* harmony import */ var _Section__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Section */ "./components/Section.jsx");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../constants */ "./constants.js");
-
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var _Section__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Section */ "./components/Section.jsx");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../constants */ "./constants.js");
 
 
 
@@ -1073,97 +1058,60 @@ var _jsxFileName = "/Users/morgancrena/Desktop/Mini Desktop/Codesmith NY12/Produ
 
 
 
-var SidebarStyled = styled_components__WEBPACK_IMPORTED_MODULE_9__["default"].div.withConfig({
+var SidebarStyled = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   displayName: "Sidebar__SidebarStyled",
   componentId: "k4u00n-0"
 })(["display:flex;flex-direction:column;height:100vh;width:100%;font-size:7.5px;font-weight:400;color:", ";background-color:", ";:hover{cursor:pointer;}@media only screen and (min-width:", "px){width:25%;max-width:250px;}"], function (props) {
   return props.theme.black;
 }, function (props) {
   return props.theme.white;
-}, _constants__WEBPACK_IMPORTED_MODULE_11__["mobileBreakpoint"]);
+}, _constants__WEBPACK_IMPORTED_MODULE_10__["mobileBreakpoint"]);
 
 var Sidebar =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Sidebar, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Sidebar, _React$Component);
 
-  function Sidebar() {
+  function Sidebar(props) {
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Sidebar);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Sidebar);
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Sidebar).call(this));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Sidebar).call(this, props));
     _this.state = {
-      test: true,
-      sections: [{
-        title: "Getting Started",
-        collapsed: false,
-        subsections: ["Intro", "Concepts", "Code Walkthrough"]
-      }, {
-        title: "Core",
-        collapsed: false,
-        subsections: ["Server", "Stub", "Build", "ServerCalls", "StubCalls"]
-      }, {
-        title: "Extensions",
-        collapsed: false,
-        subsections: ["Middleware", "Error Handling", "Metadata", "Interceptors"]
-      }, // {
-      //   title: "Guides",
-      //   collapsed: false,
-      //   subsections: ["Authentication","Tracing"]
-      // },
-      {
-        title: "API Reference",
-        collapsed: false,
-        subsections: []
-      }]
+      test: true
     };
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Sidebar, [{
-    key: "toggleSection",
-    value: function toggleSection(section) {
-      this.setState(function (state) {
-        var sections = _babel_runtime_corejs2_core_js_object_assign__WEBPACK_IMPORTED_MODULE_1___default()(state.sections);
-
-        for (var i = 0; i < sections.length; i++) {
-          if (sections[i].title === section) {
-            sections[i].collapsed = !state.sections[i].collapsed;
-            return {
-              sections: sections
-            };
-          }
-        }
-      });
-    }
-  }, {
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Sidebar, [{
     key: "render",
     value: function render() {
       var _this2 = this;
 
-      if (this.props.windowWidth < _constants__WEBPACK_IMPORTED_MODULE_11__["mobileBreakpoint"] && !this.props.sidebarActive) {
+      if (this.props.windowWidth < _constants__WEBPACK_IMPORTED_MODULE_10__["mobileBreakpoint"] && !this.props.sidebarActive) {
         return null;
       } else {
-        return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(SidebarStyled, {
+        return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(SidebarStyled, {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 93
+            lineNumber: 44
           },
           __self: this
-        }, this.state.sections.map(function (el, index) {
-          return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_10__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+        }, this.props.sections.map(function (el, index) {
+          return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_Section__WEBPACK_IMPORTED_MODULE_9__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
             toggle: function toggle(section) {
-              return _this2.toggleSection(section);
+              return _this2.props.toggleSection(section);
             },
             key: "section-".concat(index)
           }, el, {
+            activeSection: _this2.props.activeSection,
             changeActiveSection: function changeActiveSection(section) {
               return _this2.props.changeActiveSection(section);
             },
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 96
+              lineNumber: 47
             },
             __self: this
           }));
@@ -1173,7 +1121,7 @@ function (_React$Component) {
   }]);
 
   return Sidebar;
-}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Sidebar);
 
@@ -15392,7 +15340,7 @@ var WhiteSpacer = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].sect
 
 /***/ }),
 
-/***/ 0:
+/***/ 3:
 /*!*************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmorgancrena%2FDesktop%2FMini%20Desktop%2FCodesmith%20NY12%2FProduction%20Project%2Ffirecomm.io-2.0%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************************************************************************/
@@ -15415,5 +15363,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
