@@ -633,7 +633,7 @@ var Nav = function Nav(props) {
     console.log("windowwidth", props.windowWidth);
   });
 
-  if (props.windowWidth >= _constants__WEBPACK_IMPORTED_MODULE_4__["mobileBreakpoint"]) {
+  if (props.windowWidth > _constants__WEBPACK_IMPORTED_MODULE_4__["mobileBreakpoint"]) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(NavStyle, {
       main: true,
       __source: {
@@ -844,7 +844,7 @@ var NavCore = function NavCore() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://github.com/oslabs-beta/firecomm",
+    href: "https://github.com/firecomm/firecomm",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 56
